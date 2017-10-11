@@ -4,18 +4,19 @@ body {
   font-size: 48px;
 }
 
-.content {
+.container{
+  float: right;
+  padding-top: 18%;
+  padding-right: 15%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-top: 25%;
-  padding-right: 15%;
 }
 
-.container {
-  float: right;
+nav.social {
+  background: linear-gradient(to right, black, lavender);
 }
 
 .social {
@@ -28,7 +29,7 @@ body {
   margin: 0;
   width: 60px;
   padding-left: 100px;
-  padding-top: 280px;
+  padding-top: 328px;
   -webkit-transform: translate(-270px, 0);
   -moz-transform: translate(-270px, 0);
   -ms-transform: translate(-270px, 0);
@@ -54,6 +55,7 @@ body {
 .social ul li:hover {
   transform: translate(60px, 0);
   background: rgba(255, 255, 255, 0.4);
+  background: linear-gradient(to right, black 50%, grey);
 }
 
 .social ul li i {
